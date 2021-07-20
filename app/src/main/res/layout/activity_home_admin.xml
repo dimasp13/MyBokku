@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.dims13.mybokku.HomeAdminActivity">
+
+    <Button
+        android:id="@+id/add_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD NEW BOOK"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/orange"/>
+    <Button
+        android:id="@+id/see_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEE MY BOOK"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/orange"/>
+
+    <Button
+        android:id="@+id/peminjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEMINJAM"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/orange"/>
+
+    <Button
+        android:id="@+id/logoutadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

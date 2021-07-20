@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43993049304",
+    "project_id": "db-mybokku",
+    "storage_bucket": "db-mybokku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43993049304:android:11738fe563abe0688a0fad",
+        "android_client_info": {
+          "package_name": "com.dims13.mybokku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43993049304-qj6p9t1ptdsqpg6ucmponc6ntvf9efhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo2plrPuKD_czr8cMb6UKcrc04Dvt66zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43993049304-qj6p9t1ptdsqpg6ucmponc6ntvf9efhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic_person_pin"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_mybooks"
+            android:icon="@drawable/ic_book"
+            android:title="My Books" />
+        <item
+            android:id="@+id/nav_mylibrary"
+            android:icon="@drawable/ic_library"
+            android:title="My Library" />
+    </group>
+
+    <item android:title="Lainnya">
+        <menu>
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>

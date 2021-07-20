@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.dims13.mybokku.LoginActivity"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_user"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="70dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+    android:layout_width="150dp"
+    android:layout_height="140dp"
+    android:src="@drawable/logo"
+    android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/edtEmailLogin"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/email"
+        android:background="#E4F5FD"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="20dp"
+        android:importantForAutofill="no"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edtPasswordLogin"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:hint="@string/password"
+        android:background="#E4F5FD"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:importantForAutofill="no"
+        tools:ignore="RtlSymmetry" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/login"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFF"
+        android:layout_marginTop="60dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_to_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+            <TextView
+        android:visibility="gone"
+        android:id="@+id/verifikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_email_is_unverified_click_here_to_resend_the_verification" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

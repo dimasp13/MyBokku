@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dims13.mybokku">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BOKKU">
+
+        <activity android:name="com.dims13.mybokku.SplashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.dims13.mybokku.LoginAwalActivity"/>
+        <activity android:name="com.dims13.mybokku.RegisterActivity" />
+        <activity android:name="com.dims13.mybokku.LoginActivity" />
+        <activity android:name="com.dims13.mybokku.HomeAdminActivity" />
+        <activity android:name="com.dims13.mybokku.LoginAdminActivity" />
+        <activity android:name="com.dims13.mybokku.MainActivity" />
+
+        <!--AKSES ADMIN-->
+        <activity android:name="com.dims13.mybokku.Akses.Admin.TambahBuku"/>
+        <activity android:name="com.dims13.mybokku.Akses.Admin.LihatBuku"/>
+        <activity android:name="com.dims13.mybokku.Akses.Admin.UpdateBuku"/>
+        <activity android:name="com.dims13.mybokku.Akses.Admin.LihatPeminjam"/>
+
+        <!--PENGGUNA-->
+        <activity android:name="com.dims13.mybokku.Akses.Pengguna.LihatBuku"/>
+        <activity android:name="com.dims13.mybokku.Akses.Pengguna.PinjamBuku">
+
+        </activity>
+    </application>
+</manifest>
